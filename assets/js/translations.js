@@ -9,7 +9,7 @@ const translations = {
     about_tag: 'Nuestra historia',
     about_title: 'El rincón que<br>buscabas',
     about_desc1: 'El lugar que buscabas sin saber que existía.',
-    about_stat_open: 'Abrimos', about_stat_close: 'Cerramos', about_stat_days: 'Días a la semana',
+    about_stat_hours: 'Abierto cada día', about_stat_line: 'Línea de mar', about_stat_brava: 'Brava · Begur',
 
     menu_tag: 'Nuestra carta', menu_title: 'Para todos los gustos',
     menu_desc: 'Desde montaditos y crudités frescos hasta hamburguesas gourmet, cocas y el mejor marisco a la planxa. Todo pensado para disfrutar con los pies en la arena.',
@@ -155,7 +155,7 @@ const translations = {
     about_tag: 'La nostra història',
     about_title: "El racó que<br>buscaves",
     about_desc1: 'El lloc que buscaves sense saber que existia.',
-    about_stat_open: 'Obrim', about_stat_close: 'Tanquem', about_stat_days: 'Dies a la setmana',
+    about_stat_hours: 'Obert cada dia', about_stat_line: 'Primera línia', about_stat_brava: 'Brava · Begur',
 
     menu_tag: 'La nostra carta', menu_title: 'Per a tots els gustos',
     menu_desc: "Des de montaditos i crudités frescos fins a hamburgueses gourmet, coques i el millor marisc a la planxa. Tot pensat per gaudir amb els peus a la sorra.",
@@ -301,7 +301,7 @@ const translations = {
     about_tag: 'Our story',
     about_title: 'The spot you<br>were looking for',
     about_desc1: 'The place you were looking for without knowing it existed.',
-    about_stat_open: 'We open', about_stat_close: 'We close', about_stat_days: 'Days a week',
+    about_stat_hours: 'Open every day', about_stat_line: 'Seafront', about_stat_brava: 'Brava · Begur',
 
     menu_tag: 'Our menu', menu_title: 'Something for everyone',
     menu_desc: 'From fresh sharing plates and salads to gourmet burgers, flatbreads and the finest grilled seafood. All designed to enjoy with your feet in the sand.',
@@ -446,8 +446,8 @@ const translations = {
 
     about_tag: 'Notre histoire',
     about_title: 'Le coin que<br>vous cherchiez',
-    about_desc1: 'L'endroit que vous cherchiez sans savoir qu'il existait.',
-    about_stat_open: 'Ouverture', about_stat_close: 'Fermeture', about_stat_days: 'Jours par semaine',
+    about_desc1: "L'endroit que vous cherchiez sans savoir qu'il existait.",
+    about_stat_hours: 'Ouvert chaque jour', about_stat_line: 'Première ligne', about_stat_brava: 'Brava · Begur',
 
     menu_tag: 'Notre carte', menu_title: 'Pour tous les goûts',
     menu_desc: 'Des tapas et crudités frais aux burgers gourmet, cocas et les meilleurs fruits de mer grillés. Tout pensé pour profiter les pieds dans le sable.',
@@ -488,7 +488,7 @@ const translations = {
     contacto_strip3_title: 'Réservations', contacto_strip3_desc: "Pour les groupes ou les dates spéciales, contactez-nous directement par téléphone.",
 
     carta_title: 'Notre Carte',
-    carta_desc: 'Cuisine fraîche, produits de qualité et l'ambiance de la plus belle plage de la Costa Brava.',
+    carta_desc: "Cuisine fraîche, produits de qualité et l'ambiance de la plus belle plage de la Costa Brava.",
     tab_compartir: 'À partager', tab_frescos: "Fresc-co's", tab_torrades: 'Toasts',
     tab_delmar: 'De la Mer', tab_coca: "Coca d'oli", tab_entrepans: 'Sandwichs',
     tab_hamburgueses: 'Burgers', tab_cafes: 'Cafés', tab_cocteles: 'Cocktails',
@@ -502,7 +502,7 @@ const translations = {
     sec_entrepans_title: 'Sandwichs', sec_entrepans_sub: "Classiques et spéciaux Raco'ns",
     sec_hamburgueses_title: 'Les burgers gourmet', sec_hamburgueses_sub: 'Bœuf Angus · Créations uniques',
     sec_cafes_title: 'Cafés', sec_cafes_sub: 'Pour bien commencer la journée',
-    sec_cocteles_title: 'Cocktails', sec_cocteles_sub: 'L'heure du soleil',
+    sec_cocteles_title: 'Cocktails', sec_cocteles_sub: "L'heure du soleil",
     sec_combinados_title: 'Alcools', sec_combinados_sub: 'Les meilleures marques',
     sec_bebidas_title: 'Boissons', sec_bebidas_sub: 'Rafraîchissantes et classiques',
     sec_vins_title: 'Carte des Vins', sec_vins_sub: 'Sélection des meilleures appellations',
