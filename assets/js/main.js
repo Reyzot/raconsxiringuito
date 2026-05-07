@@ -105,10 +105,13 @@ function applyLang(lang) {
   if (page && pageTitles[lang]) document.title = pageTitles[lang][page] || document.title;
 }
 
-document.addEventListener('click', e => {
-  const btn = e.target.closest('.lang-btn');
-  if (btn) applyLang(btn.getAttribute('data-lang'));
-});
+function bindLangButtons() {
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.addEventListener('click', () => applyLang(btn.getAttribute('data-lang')));
+    btn.addEventListener('touchend', e => { e.preventDefault(); applyLang(btn.getAttribute('data-lang')); });
+  });
+}
+bindLangButtons();
 
 applyLang(localStorage.getItem('raconsLang') || 'es');
 
