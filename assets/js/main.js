@@ -105,7 +105,8 @@ function applyLang(lang) {
 }
 
 document.addEventListener('click', e => {
-  if (e.target.matches('.lang-btn')) applyLang(e.target.getAttribute('data-lang'));
+  const btn = e.target.closest('.lang-btn');
+  if (btn) applyLang(btn.getAttribute('data-lang'));
 });
 
 applyLang(localStorage.getItem('raconsLang') || 'es');

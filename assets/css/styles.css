@@ -134,8 +134,8 @@ nav {
 /* Bandera Catalunya CSS (Senyera: 4 franjes vermelles sobre groc) */
 .flag-ca {
   display: inline-block;
-  width: 1.35em;
-  height: 0.9em;
+  width: 22px;
+  height: 15px;
   border-radius: 2px;
   vertical-align: middle;
   background: repeating-linear-gradient(
