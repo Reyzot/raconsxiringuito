@@ -99,6 +99,7 @@ function applyLang(lang) {
     es: { index: "Raco'ns Xiringuito — Platja del Racó, Begur", carta: "Carta — Raco'ns Xiringuito · Begur", galeria: "Galería — Raco'ns Xiringuito · Begur", contacto: "Contacto — Raco'ns Xiringuito · Begur" },
     ca: { index: "Raco'ns Xiringuito — Platja del Racó, Begur", carta: "Carta — Raco'ns Xiringuito · Begur", galeria: "Galeria — Raco'ns Xiringuito · Begur", contacto: "Contacte — Raco'ns Xiringuito · Begur" },
     en: { index: "Raco'ns Xiringuito — Platja del Racó, Begur", carta: "Menu — Raco'ns Xiringuito · Begur", galeria: "Gallery — Raco'ns Xiringuito · Begur", contacto: "Contact — Raco'ns Xiringuito · Begur" },
+    fr: { index: "Raco'ns Xiringuito — Platja del Racó, Begur", carta: "Carte — Raco'ns Xiringuito · Begur", galeria: "Galerie — Raco'ns Xiringuito · Begur", contacto: "Contact — Raco'ns Xiringuito · Begur" },
   };
   const page = document.body.getAttribute('data-page');
   if (page && pageTitles[lang]) document.title = pageTitles[lang][page] || document.title;
